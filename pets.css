@@ -1,0 +1,62 @@
+.header h1{
+  font-size: 50pt;
+  margin-bottom: 20px;
+}
+.header span{
+  font-size: 20px;
+  margin: 3pt;
+  margin-bottom: 30px;
+  color: gray;
+  
+}
+.container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.pet-card1,.pet-card2,.pet-card3,.pet-card4{
+  border-style:solid;
+  margin: 20px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  width: 45%;
+
+}
+.pet-card1 img{
+  width:180px;
+  height: 240px;
+  border-radius: 10pt;
+  grid-row: 1 / 4;
+}
+.pet-card1 h2,.pet-card2 h2,.pet-card3 h2,.pet-card4 h2{
+  margin-left: 10px;
+}
+body{
+  font-family: sans-serif;
+  margin: 30px;
+}
+.pet-card2 img{
+  width: 180px;
+  height: 240px;
+  border-radius: 10pt;
+  grid-row: 1 / 4;
+}
+.pet-card3 img{
+  width: 180px;
+  height: 240px;
+  border-radius: 10pt;
+  grid-row: 1 / 4;
+}
+.pet-card4 img{
+  width: 180px;
+  height: 240px;
+  border-radius: 10pt;
+  grid-row: 1 / 4;
+}
+.pet-card1 p,.pet-card2 p,.pet-card3 p,.pet-card4 p{
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(220, 151, 151);
+}

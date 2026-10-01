@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.one{
+  border-style: solid;
+  margin: 10pt;
+  padding: 10pt;
+  border-color: white;
+}
+.two{
+  border-style: solid;
+  margin: 10pt;
+  padding: 10pt;
+  border-color: white;
+}
+.three{
+  border-style: solid;
+  margin: 10pt;
+  padding: 10pt;
+  border-color: white;
+}
+.four{
+  border-style: solid;
+  margin: 10pt;
+  padding: 10pt;
+  border-color: white;
+
+}
+
+.button1{
+  border-style: solid;
+  border-radius: 50pt;
+  padding: 8pt;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: blueviolet;
+  color: white;
+  border-color: white;
+  
+}
+.button2{
+  border-style: solid;
+  border-radius: 50pt;
+  padding: 8pt;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+.header{
+  position: sticky;
+}
+.button1:hover{
+  transform: scale(1.05);
+}
+.button2:hover{
+  transform: scale(1.05);
+}
+body{
+  font-family: sans-serif;
+  color: white;
+   background: linear-gradient(110deg, #1a0033, #07118a, #06c9df);
+   padding: 150px;
+}
+.header h1{
+  font-size:60px;
+}
